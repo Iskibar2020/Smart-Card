@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  color: #404040;
+  font-family: Montserrat, sans-serif;
+  background-color: #eddbc0;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 5rem 0;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+}
+.card {
+  background-color: #efeeee;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+  
+}
+.card .banner {
+  background-image: url("bn.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 4rem;
+}
+
+.card h2.name {
+  text-align: center;
+  padding: 0 2rem 0.5rem;
+  margin: 0;
+  color: #7a4674;
+}
+.card .title {
+  color: #dd5353;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+
+.user-img{width: 150px;
+  border:solid 0.2em;
+  border-color: #2d5a9b;
+  margin: auto;
+  position: absolute;
+  margin-top: 5rem;
+  z-index: 9;
+  border-radius: 5rem;
+  margin-left: 6rem;
+  box-shadow: -6px -6px 16px rgba(122,70,116,0.5),
+  6px 6px 16px rgba(122,70,116,0.5);
+}
+
+
+
+.container {
+  display: block;
+  justify-content: space-between;
+  padding: 1.5em;
+  max-width: 360px;
+  padding-top: 0.5em;
+  background: #efeeee;
+}
+
+.container a {
+  display: inline-block;
+  font-size: 2.75em;
+  margin: 0.24em;
+  padding: 0.4em;
+  width: 1em;
+  height: 1em;
+  border-radius: 30px;
+  box-shadow: -6px -6px 16px #fff,
+  6px 6px 16px #d1cdc7;
+  background: #efeeee;
+}
+
+
+.container a:active {
+  box-shadow: inset -6px -6px 16px #fff,
+              inset 6px 6px 16px #d1cdc7
+}
+
+.fa-twitter {
+  color: #19a9dd;
+}
+
+.fa-github,
+.fa-codepen , .fa-google {
+  color: #010101;
+}
+
+.fa-linkedin {
+color: #19a9dd;
+}
+
+.fa-instagram , .fa-dribbble {
+color:#ff0066;
+}
+
+.fa-youtube {
+color: #ff0000;
+}
+
+
+.fa-phone {
+  color: #205d7a;
+}
+
+
+.fa-envelope {
+  color: #e84336;
+}
+
+.fa-globe {
+  color: #3376b7;
+}
+
+.fa-whatsapp{
+  color: #4fcc5d;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
